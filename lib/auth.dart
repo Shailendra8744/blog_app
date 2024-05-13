@@ -7,7 +7,7 @@ class AuthenticationScreen extends StatelessWidget {
 
   Future<void> _signInWithEmailAndPassword(BuildContext context) async {
     try {
-      await _auth.signInWithEmagitilAndPassword(
+      await _auth.signInWithEmailAndPassword(
           email: _email, password: _password);
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
