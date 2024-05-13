@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          // Navigate to blog post creation screen
+          // Navigate to blog post creation screeng
         },
         child: Icon(Icons.add),
       ),
